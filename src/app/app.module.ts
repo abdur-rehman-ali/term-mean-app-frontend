@@ -7,13 +7,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HistoryComponent } from './history/history.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormComponent } from './form/form.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HistoryComponent,
-    FormComponent
+    FormComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
