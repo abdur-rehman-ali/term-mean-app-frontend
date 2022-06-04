@@ -1,6 +1,9 @@
-<p>History details</p>
-<div *ngFor="let dt of data" >
-    <h1>{{dt.id}} - {{dt.title}}</h1>
-    <p>{{dt.body}}</p>
-    <hr>
+<div class="card" style="width: 100%; text-align: center;">
+    <div class="card-header">
+      Histroy
+    </div>
+
+    <ul *ngFor="let dt of data" class="list-group list-group-flush">
+      <li class="list-group-item">{{dt.title}}</li>
+    </ul>
 </div>
